@@ -12,9 +12,7 @@ class Artist
   @@artists = []
 
   def initialize
-      #def to_param
-  #  name.downcase.gsub(' ', '-')
-  #end
+    super
     @songs = []
   end
 
