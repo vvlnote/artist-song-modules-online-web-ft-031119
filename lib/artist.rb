@@ -12,7 +12,9 @@ class Artist
   @@artists = []
 
   def initialize
-    @@artists << self
+      #def to_param
+  #  name.downcase.gsub(' ', '-')
+  #end
     @songs = []
   end
 
